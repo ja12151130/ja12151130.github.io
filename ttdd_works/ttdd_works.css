@@ -1,0 +1,21 @@
+.ttddbtn{
+
+    background-color:transparent;
+    border:0;
+    position:fixed;
+}
+
+.logoImage{
+    width: 80px;
+    height:80px;
+}
+
+
+.display-03{
+    /* font-family: 'Work Sans', sans-serif; */
+    font-family: 'Noto Sans Avestan', sans-serif;
+    font-weight: 100;
+    
+    
+}
+

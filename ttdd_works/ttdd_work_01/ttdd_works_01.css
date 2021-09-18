@@ -1,0 +1,46 @@
+
+.hr{
+    margin-bottom: 5%;
+    margin-top:5%;
+    margin-left: auto;
+    margin-right: auto;
+    width:90%;
+    display: flex;
+    justify-content: center;
+    color:rgb(rgb(119, 125, 133));
+    height:10%;
+}
+
+.workimg{
+    padding-top: 8%;
+}
+
+/* .container{
+    background-color:tomato;
+} */
+
+.description{
+    padding-left: 5%;
+}
+
+.albumpic{
+    width: 100px;
+    height:100px;
+    padding-bottom: 4px;
+    opacity: 0.3;
+object-fit: cover;
+}
+
+.albumpic:hover{
+    opacity:1
+}
+
+#album{
+    border:1px;
+    border-color: tomato;
+    width: 350px;
+    height:350px;
+}
+
+
+

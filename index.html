@@ -5,16 +5,107 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="button.css">
     <title>Document</title>
+    <link rel="stylesheet" href="/bootstrap-5.1.1-dist/css/bootstrap.css">
+
+    <link rel="stylesheet" href="ttdd_web.css">
 </head>
 
 <body>
-    <form action="https://www.google.com.tw/?hl=zh_TW">
-        <div>
-            <button class="button"><span>Hover Me</span></button>
+
+    <div class="flipCard">
+        <div class="cardInner">
+            <div class="divvideo cardFront cardFaces">
+                <video muted autoplay loop class="video">
+                    <source src="/ttdd_works/ttdd_work_01/01年度主視覺/主視覺影片_2.mp4" type="video/mp4">
+                    <p>Your browser doesn't support HTML5 video. Here is
+                        a <a href="myVideo.mp4">link to the video</a> instead.</p>
+                </video>
+
+            </div>
+            <div class="cardBack cardFaces">
+
+                <button class="linkPageBtn">Works--></button>
+                <button class="linkPageBtn">About--></button>
+
+
+
+
+            </div>
         </div>
-    </form>
+    </div>
+
+    <div class="accordion accordion-flush flipCard" id="accordionFlushExample">
+        <div class="accordion-item toggle">
+            <h2 class="accordion-header" id="flush-headingOne">
+                <!-- <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                    Works
+                </button> -->
+                <form action="/ttdd_works/ttdd_work_01/ttdd_works_01.html">
+                    <button class="ttddbtn accordion-button collapsed worksbtn" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                        <img src="worksbtn.png" alt="worksbtn">
+                    </button>
+                </form>
+            </h2>
+            <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                    <!-- Placeholder content for this accordion, which is intended to demonstrate the
+                    <code>.accordion-flush</code> 
+                    class. This is the first item's accordion body. -->
+                    <form action="/ttdd_works/ttdd_work_01/ttdd_works_01.html">
+                        <button class="ttddbtn">
+                            <img src="work_btn_01.png" alt="work_btn_01">
+                        </button>
+                    </form>
+                    <form action="/ttdd_works/ttdd_work_02/ttdd_works_02.html">
+                        <button class="ttddbtn">
+                            <img src="work_btn_02.png" alt="work_btn_02">
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingTwo">
+                <!-- <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                    About
+                </button> -->
+                <button class="ttddbtn accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne"">
+                    <img src=" aboutbtn.png" alt="aboutbtn.png">
+                </button>
+            </h2>
+            <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                    <!-- Placeholder content for this accordion, which is intended to demonstrate the
+                    <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this
+                    being
+                    filled with some actual content. -->
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <h5 style="text-align:center;">testing</h5>
+
+    <div>
+        <form action="ttdd_web.html">
+            <button class="ttddbtn fixed-bottom">
+                <img src="ttddLogo.png" alt="ttfddimg">
+            </button>
+        </form>
+    </div>
+
+
+    <script src="/bootstrap-5.1.1-dist/js/bootstrap.js"></script>
+    <script src="ttdd_web.js"></script>
 </body>
 
 </html>
