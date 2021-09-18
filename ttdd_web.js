@@ -7,54 +7,54 @@ const mickeyvid = document.querySelector(".divvideo");
 //     mickeyvideo.classList.toggle('fade');
 // })
 
-function getRidOf() {
-    mickeyvid.remove();
-}
+// function getRidOf() {
+//     mickeyvid.remove();
+// }
 
 
 
-// setTimeout(getRidOf, 13500)
+// // setTimeout(getRidOf, 13500)
 
 
 const card = document.querySelector(".cardInner")
 
 card.addEventListener("click", function () {
-    // console.log("hit")
-    card.classList.toggle("isFlipped");
-
-
-})
-
-const cardFlipped = document.querySelector(".flipCard")
-cardFlipped.addEventListener("mouseenter", function () {
-    card.classList.toggle("isFlipped");
-    console.log("hit");
-})
-
-
-
-
-const btn = document.querySelector(".worksbtn")
-btn.addEventListener("mouseenter", function () {
     console.log("hit")
-    // card.classList.toggle("isFlipped");
+    card.classList.toggle("isFlipped");
 
 
 })
 
-
-// const test = document.querySelector("h5");
-// test.toggle("click", function () {
-//     console.log("hit")
+// const cardFlipped = document.querySelector(".flipCard")
+// cardFlipped.addEventListener("mouseenter", function () {
+//     card.classList.toggle("isFlipped");
+//     console.log("hit");
 // })
 
 
-const toggle = document.querySelector(".toggle")
 
-let togglebtn = document.createElement("button");
-let toggleimg = document.createElement("img");
-toggleimg.src = "work_btn_01.png";
-togglebtn.appendChild(toggleimg)
-toggle.appendChild(togglebtn)
 
-// togglebtn.innerText("test")
+
+const toggleWork = document.querySelector(".toggleWorkBtnArea")
+const hidebtn = document.querySelector(".hidebtn")
+
+
+toggleWork.addEventListener("mouseenter", function () {
+    console.log("testinggg")
+    hidebtn.classList.toggle("showbtn")
+})
+
+toggleWork.addEventListener("mouseleave", function () {
+    console.log("fhgf")
+    hidebtn.classList.toggle("showbtn")
+})
+
+
+
+
+const testbtn = document.querySelector(".testingimg")
+testbtn.addEventListener("mouseenter", function () {
+    console.log("fjdkla;")
+})
+
+
